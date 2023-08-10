@@ -3,7 +3,6 @@ snack_inventory = {}
 sales_record = {}
 
 
-
 # Function to add a snack to the inventory
 def add_snack():
     snack_id = input("Enter snack ID: ")
@@ -18,7 +17,6 @@ def add_snack():
     }
     print("Snack added to inventory.")
 
-
 # Function to remove a snack from the inventory
 def remove_snack():
     snack_id = input("Enter snack ID to remove: ")
@@ -27,7 +25,6 @@ def remove_snack():
         print("Snack removed from inventory.")
     else:
         print("Snack not found in inventory .")
-
 
 # Function to update snack availability
 def update_availability():
@@ -52,7 +49,6 @@ def record_sale():
             print("Snack is not available.")
     else:
         print("Snack not found in inventory.")
-
 
 # Main loop for user interaction
 while True:
